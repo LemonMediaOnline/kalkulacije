@@ -8,7 +8,8 @@ import {
   Percent,
   Ruler,
   Thermometer,
-  Calendar
+  Calendar,
+  Home
 } from 'lucide-react';
 
 const calculators = [
@@ -43,6 +44,14 @@ const calculators = [
     description: 'Izračunajte postotke, povećanja, smanjenja i omjere.',
     icon: Percent,
     color: 'text-orange-500'
+  },
+  {
+    id: 'property-tax',
+    path: '/kalkulator-poreza-na-nekretnine',
+    title: 'Porez na Nekretnine',
+    description: 'Izračunajte godišnji porez na nekretnine prema zoni, površini i vrsti nekretnine.',
+    icon: Home,
+    color: 'text-amber-500',
   },
   {
     id: 'date',
