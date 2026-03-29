@@ -7,6 +7,7 @@ import { SalaryCalculator } from './pages/SalaryCalculator';
 import { UnitConverter } from './pages/UnitConverter';
 import { BMICalculator } from './pages/BMICalculator';
 import { PercentageCalculator } from './pages/PercentageCalculator';
+import { PropertyTaxCalculator } from './pages/PropertyTaxCalculator';
 
 export function App() {
   return (
@@ -20,6 +21,7 @@ export function App() {
             <Route path="/pretvaranje-jedinica" element={<UnitConverter />} />
             <Route path="/kalkulator-bmi" element={<BMICalculator />} />
             <Route path="/kalkulator-postotaka" element={<PercentageCalculator />} />
+            <Route path="/kalkulator-poreza-na-nekretnine" element={<PropertyTaxCalculator />} />
             <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>
         </main>
