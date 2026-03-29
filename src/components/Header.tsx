@@ -17,6 +17,8 @@ export function Header() {
         return 'Kalkulator BMI';
       case '/kalkulator-postotaka':
         return 'Kalkulator Postotaka';
+      case '/kalkulator-poreza-na-nekretnine':
+        return 'Porez na Nekretnine';
       default:
         return 'Kalkulacije.com';
     }
